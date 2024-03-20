@@ -1,6 +1,8 @@
 from PIL import Image
 obrazek = Image.open("pitbull.jpg")
-def filter():
+
+#
+def BlackAndWhiteFilter():
     sirka, vyska = obrazek.size
     x = 0
 
@@ -25,4 +27,4 @@ def filter():
     obrazek.show()
     
 
-filter()
+BlackAndWhiteFilter()
